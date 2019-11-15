@@ -8,7 +8,7 @@ ggmaplot <- function(tdf,
   require(ggplot2)
   require(RColorBrewer)
   require(plotly)
-  source('I:/Ball_Kerri/Staurosporine_pDrive/txt_all_temp_staurosporine/DataAnalysis/fdrfunctions.R')
+  source('./fdrfunctions.R')
 #  browser()
   xvar <- enquo(xvar)
   yvar <- enquo(yvar)
